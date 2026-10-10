@@ -1,0 +1,98 @@
+[
+  {
+    "id": "YDLidar_GS5_p1_text",
+    "content": "Shenzhen EAI Technology Co.,Ltd.\nDOC#:01.13.006400\nwww.ydlidar.com\nYDLIDAR GS5\nDATA SHEET",
+    "page": 1,
+    "type": "text"
+  },
+  {
+    "id": "YDLidar_GS5_p2_text",
+    "content": "CONTENTS\n1 PRODUCT OVERVIEW............................................................................. 1\n1.1 Product Features..........................................................................................1\n1.2 Applications.................................................................................................1\n1.3 Installation and Dimensions........................................................................... 1\n2 SPECIFICATIONS....................................................................................2\n2.1 Performance Parameter................................................................................2\n2.2 Electrical Parameter......................................................................................2\n2.3 Interface Definition........................................................................................3\n2.4 Data Communication.....................................................................................4\n2.5 Optical Characteristic....................................................................................4\n2.6 Others.........................................................................................................4\n3 REVISE................................................................................................. 6\nCopyright 2023 EAI All Rights Reserved",
+    "page": 2,
+    "type": "text"
+  },
+  {
+    "id": "YDLidar_GS5_p3_text",
+    "content": "1 PRODUCT OVERVIEW\nYDLIDAR GS5 is a Linear array solid LiDAR (hereinafter referred to as GS5)\ndeveloped by EAI team. Based on the principle of Triangulation, it is equipped with related\noptics, electricity, and algorithm design, to achieve 80 degrees high-precision laser distance\nmeasurement, and output point cloud data of the scanning environment. It can be used for\nrobot obstacle avoidance, path planning, etc.\n1.1 Product Features\n\uf0d8 High accuracy, stable performance\n\uf0d8 High resolution of ranging angle, up to 0.54 degrees\n\uf0d8 Good obstacle avoidance effect, the smallest object with a diameter of 6mm can be\ndetected\n\uf0d8 Wide detection range, no blind zone in combination, FOV \u2265 80 degrees\n\uf0d8 Small detection range blind area, detectable distance is 70mm~1000mm\n\uf0d8 10000h Service life\n1.2 Applications\n\uf0d8 Robot obstacle avoidance\n\uf0d8 Obstacle avoidance of smart equipment\n\uf0d8 Navigation and obstacle avoidance of home service robots/vacuum clean robots\n1.3 Installation and Dimensions\nFIG1YDLIDARGS5INSTALLATIONDIMENSION(UNIT:MM)\nCopyright 2023 EAI All Rights Reserved 1 / 6",
+    "page": 3,
+    "type": "text"
+  },
+  {
+    "id": "YDLidar_GS5_p4_text",
+    "content": "2 SPECIFICATIONS\n2.1 Performance Parameter\nCHART 1 YDLIDAR GS5 PERFORMANCE PARAMETER\nItem Min Typical Max Unit Remarks\nIndicatesthe rangingtimes per\nsecond,and the frequency\nRangingfrequency 7.5 / 28 Hz\nchanges inrealtimeaccording\ntothescene\nRanging distance 70 / 1000 mm 80%reflectivity\nFieldofview 80 / / Deg /\nAngle resolution / 0.54 / Deg /\n/ 10 / / 70mm\u2264Distance\uff1c200mm\nRelativeerror / \u22645% / / 200mm\u2264Distance\uff1c600mm\n/ \u22648% / / 600mm\u2264Distance\uff1c1000mm\nSunlightresistant / / 25000 Lux 500mmtesting distance\nLife-time 10000 / / h /\nNote1:Itis factoryFQC standard value,80% reflectivity materialobject.\nNote2:Therelativeerror valueindicates the accuracyofthe Lidar measurement. Relativeerror (mean\nvalue) =(average measureddistance-actualdistance)/actualdistance*100%, samplesize:\n100pcs.\nNote3:Lidar isaprecision device, pleaseavoidusing Lidar under highor low temperatureorstrong\nvibrationsituation,the relativeerror parameter index will berelativelylarger, anditmay exceed\nthe typicalvalue.\n2.2 Electrical Parameter\nCHART 2 YDLIDAR GS5 ELECTRICAL PARAMETER\nItem Min Typical Max Unit Remarks\nExcessivevoltage mightdamage\nSupply voltage 3.2 3.3 3.4 V the Lidar whilelow affectnormal\nperformance\nStart-upcurrent / 450 / mA /\nWorkingcurrent / 200 / mA /\nCopyright 2023 EAI All Rights Reserved 2 / 6",
+    "page": 4,
+    "type": "text"
+  },
+  {
+    "id": "YDLidar_GS5_p4_table0",
+    "content": "Item | Min | Typical | Max | Unit | Remarks\n | 7.5 | / | 28 | Hz | \n | 70 | / | 1000 | mm | \n | 80 | / | / | Deg | \n | / | 0.54 | / | Deg | \n | / | 10 | / | / | \n | / | \u22645% | / | / | \n | / | \u22648% | / | / | \n | / | / | 25000 | Lux | \n | 10000 | / | / | h | ",
+    "page": 4,
+    "type": "table"
+  },
+  {
+    "id": "YDLidar_GS5_p4_table1",
+    "content": "Item | Min | Typical | Max | Unit | Remarks\n | 3.2 | 3.3 | 3.4 | V | \n | / | 450 | / | mA | \n | / | 200 | / | mA | ",
+    "page": 4,
+    "type": "table"
+  },
+  {
+    "id": "YDLidar_GS5_p5_text",
+    "content": "2.3 Interface Definition\nThe structural dimension of GS5 is 48.5*25*13.5mm.\nGS5 provides ZH1.5-4P receptacle, which has system power supply and data\ncommunication interface.\nFIG2 YDLIDAR GS5Physical Interface\nCHART 3 YDLIDAR GS5 INTERFACE DEFINITION\nPin Type Description Defaults Range Remarks\nPower\nVCC Negative 3.3V / /\nsupply\nSystem serial port Datastream:\nTX Output / /\noutput LiDAR\uf09ePeripherals\nDatastream:\nRx Input System serialportInput / /\nPeripherals\uf09eLiDAR\nPower\nGND Positive 0V 0V /\nsupply\nCopyright 2023 EAI All Rights Reserved 3 / 6",
+    "page": 5,
+    "type": "text"
+  },
+  {
+    "id": "YDLidar_GS5_p5_table0",
+    "content": "Pin | Type | Description | Defaults | Range | Remarks\n | Power\nsupply | Negative | 3.3V | / | \n | Output | System serial port\noutput | / | / | \n | Input | System serialportInput | / | / | \n | Power\nsupply | Positive | 0V | 0V | ",
+    "page": 5,
+    "type": "table"
+  },
+  {
+    "id": "YDLidar_GS5_p6_text",
+    "content": "2.4 Data Communication\nWith a 3.3V level serial port (UART), users can connect the external system and the\nproduct through the physical interface. After that, it can obtain the real-time scanned point\ncloud data, device information as well as device status, and can set the working mode of\nthe equipment, etc. The communication protocol of parameters are as follows:\nCHART 4 YDLIDAR GS5 SERIAL SPECIFICATION\nItem Min Typical Max Unit Remarks\n8-bitdatabit,1 stop bit,\nBaudrate / 921600 / bps\nnoparity\nSignalvoltage>2.4V is\nHighsignallevel 2.4 3.3 3.4 V\nhighsignal\nSignalvoltage<0.5V is\nLow signallevel 0 0 0.5 V\nlowsignal\n2.5 Optical Characteristic\nThe infrared point pulse laser used in GS5 can\nensure the safety of human and pet. The lidar has\npassed testing and conformed to Class I, 21 CFR\n1040.10 and 1040. 11 safety level, except for IEC\n60825-1 Ed. 3., as described in Laser Notice No. 56, dated May 8, 2019.\nThe laser and optical lens finish the transmission and reception of the laser signal to\nachieve high-frequency ranging while working. To ensure system ranging performance,\nplease keep the laser and optical lens clean. The detailed optical parameters are as follows:\nCHART 5 YDLIDAR GS5 LASER OPTICAL PARAMETERS\nItem Min Typical Max Unit Remarks\n840 850 860 nm GS5-x850x01Infrared band\nLaser\nwavelength\n798 808 818 Nm GS5-x808x01Infrared band\nLaser power / 200 / mW /\nFDA Class IIEC60825-1\nNote:Thepersonaladjustmentor reassembly oftheLidar mayresult inhazardousradiationexposure.\n2.6 Others\nCHART 6 YDLIDAR GS5 OTHERS\nItem Min Typical Max Unit Remarks\nLong-term working inahigh\nOperating\n-10 25 50 \u2103 temperatureenvironment willreduce\ntemperature\nthelife span\nCopyright 2023 EAI All Rights Reserved 4 / 6",
+    "page": 6,
+    "type": "text"
+  },
+  {
+    "id": "YDLidar_GS5_p6_table0",
+    "content": "Item | Min | Typical | Max | Unit | Remarks\n | / | 921600 | / | bps | \n | 2.4 | 3.3 | 3.4 | V | \n | 0 | 0 | 0.5 | V | ",
+    "page": 6,
+    "type": "table"
+  },
+  {
+    "id": "YDLidar_GS5_p6_table1",
+    "content": "Item | Min | Typical | Max | Unit | Remarks\n | 840 | 850 | 860 | nm | \n | 798 | 808 | 818 | Nm | \n | / | 200 | / | mW | ",
+    "page": 6,
+    "type": "table"
+  },
+  {
+    "id": "YDLidar_GS5_p6_table2",
+    "content": "Item | Min | Typical |  | Max | Unit | Remarks\n | -10 |  | 25 | 50 | \u2103 | ",
+    "page": 6,
+    "type": "table"
+  },
+  {
+    "id": "YDLidar_GS5_p7_text",
+    "content": "Storage\n-30 25 70 \u2103 /\ntemperature\nweight / 11 / g N.W.(Without cable)\nCopyright 2023 EAI All Rights Reserved 5 / 6",
+    "page": 7,
+    "type": "text"
+  },
+  {
+    "id": "YDLidar_GS5_p7_table0",
+    "content": "/ | 11 | / | g",
+    "page": 7,
+    "type": "table"
+  },
+  {
+    "id": "YDLidar_GS5_p8_text",
+    "content": "3 REVISE\nDate Version Content\n2023-07-17 1.0 The1streleased\n2024-12-27 1.1 RevisedFOV degree\n2025-05-10 1.2 AddPhysicalInterfaceimage\nCopyright 2023 EAI All Rights Reserved 6 / 6",
+    "page": 8,
+    "type": "text"
+  },
+  {
+    "id": "YDLidar_GS5_p8_table0",
+    "content": "Date | Version | Content\n2023-07-17 | 1.0 | The1streleased\n2024-12-27 | 1.1 | RevisedFOV degree\n2025-05-10 | 1.2 | AddPhysicalInterfaceimage",
+    "page": 8,
+    "type": "table"
+  }
+]
