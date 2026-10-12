@@ -1,4 +1,20 @@
-
+#example of how to run the full system (using lidar datasheet as an example):
+#1. get the chucks file by running "py extract.py YDLidar_GS5.pdf" 
+#   this needs to be done only once for each datasheet(already done)
+#   this will create a file called "chunks_YDLidar_GS5.json" in the current directory
+#2. embed the chunks by running "py .\index.py chunks_YDLidar_GS5.json" where the 
+#  argument is the name of the chunks file created in step 1.
+#  This needs to be done for whichever datasheet you want to query.
+#  This will create a folder called "datasheet_embeddings" in the current directory
+#  and will get overwritten if you run it again with a different datasheet.
+#3. make sure ollama is running with the model you want to use 
+# by running ollama pull llama3.1
+#4. run the query script with a question, for example:
+#py .\query.py "What is the operating voltage of the YDLidar GS5?" 
+# you can add --top_k <number> to change the number of chunks retrieved (default is 5)
+#this will return the answer to the question based on the datasheet chunks that were embedded in step 2.
+#5. get the answer with the baseline model (no RAG) by running:
+#py .\query.py "What is the operating voltage of the YDLidar GS5?" --baseline --part "YDLidar GS5"  
 import sys
 import argparse 
 from sentence_transformers import SentenceTransformer
