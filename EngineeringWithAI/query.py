@@ -75,6 +75,7 @@ def answer_with_RAG(query, top_k=5):
     You are an AI assistant helping to answer questions based on a datasheet. 
     Use the following context to answer the question below. 
     If the answer is not contained within the context, say you are unable to answer the question.
+    If there is definitive evidence that the answer is not what was proposed in the query, you are able to answer the question correctly.
     Cite the page number(s) from the context where you found the answer.
     Context:
     {context}

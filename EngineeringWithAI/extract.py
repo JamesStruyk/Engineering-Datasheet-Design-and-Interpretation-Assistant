@@ -31,26 +31,54 @@ def extract_datasheet(path):
             })
     return pages
 
+
+def split_text(text, max_chars=800, overlap=120):
+    text = text.strip()
+    if len(text) <= max_chars:
+        return [text]
+
+    parts = []
+    start = 0
+    while start < len(text):
+        end = min(start + max_chars, len(text))
+
+        # prefer to break on a newline in the back half of the window
+        if end < len(text):
+            nl = text.rfind("\n", start + max_chars // 2, end)
+            if nl != -1:
+                end = nl
+
+        part = text[start:end].strip()
+        if part:
+            parts.append(part)
+
+        if end >= len(text):
+            break
+        start = end - overlap   # step back so chunks overlap
+
+    return parts
+
 #function to turn pages to chunks
-def chunk_datasheet(pages,datasheetName):
+def chunk_datasheet(pages, datasheetName):
     chunks = []
 
     for p in pages:
-        if p["text"].strip():
+        # text: split into smaller pieces
+        for j, piece in enumerate(split_text(p["text"])):
             chunks.append({
-                "id": f"{datasheetName}_p{p['pageNum']}_text",
-                "content": p["text"],
+                "id": f"{datasheetName}_p{p['pageNum']}_text{j}",
+                "content": f"{datasheetName} | Page {p['pageNum']}\n{piece}",
                 "page": p["pageNum"],
                 "type": "text",
             })
 
+        # tables
         for i, table in enumerate(p["tables"]):
-
-            rowsToText = [ " | ".join(str(cell) if cell is not None else "" for cell in row) for row in table]
+            rowsToText = [" | ".join(str(cell) if cell is not None else "" for cell in row) for row in table]
             tableString = "\n".join(rowsToText)
             chunks.append({
                 "id": f"{datasheetName}_p{p['pageNum']}_table{i}",
-                "content": tableString,
+                "content": f"{datasheetName} | Page {p['pageNum']} | Table\n{tableString}",
                 "page": p["pageNum"],
                 "type": "table",
             })
