@@ -1,0 +1,104 @@
+[
+  {
+    "id": "Crystek_CVHD_950_p1_text0",
+    "content": "Crystek_CVHD_950 | Page 1\nCCVVHHDD--995500 VVCCXXOO\nUUllttrraa--LLooww PPhhaassee NNooiissee\nCVHD-950 Model OOsscciillllaattoorrss\n9\u00d714 mm SMD, 3.3V, CMOS\n50 MHz HCMOS 3.3V 80 MHz HCMOS 3.3V\n100 MHz HCMOS 3.3V 122.880 MHz HCMOS 3.3V\nModel CVHD-950 is a 40 MHz to 130 MHz CMOS Voltage Controlled Crystal\nOscillator. High Q crystal and 3rd overtone technology provides Ultra-Low\nPhase Noise and Low-Jitter performance with a CMOS output. Features include\n-168 dBc/Hz phase noise floor with 3.3Vdc input voltage, -40\u00b0C to +85\u00b0C operating\ntemperature, and 9\u00d714 mm SMT package. The oscillator has no sub-harmonics.\nRev: Z\nApplications include High Definition TV, Avionics\nDate: 26-Aug-2019\nLow Phase Signal Sources, and Test and Measurement.\nPage 1 of 3\nC CRYSTEK 16850 Oriole Road \u2022 Fort Myers, Florida 33912",
+    "page": 1,
+    "type": "text"
+  },
+  {
+    "id": "Crystek_CVHD_950_p1_text1",
+    "content": "Crystek_CVHD_950 | Page 1\nLow Phase Signal Sources, and Test and Measurement.\nPage 1 of 3\nC CRYSTEK 16850 Oriole Road \u2022 Fort Myers, Florida 33912\nPhone: 239-561-3311 \u2022 800-237-3061\nCORPORATION\nwww.crystek.com",
+    "page": 1,
+    "type": "text"
+  },
+  {
+    "id": "Crystek_CVHD_950_p1_table0",
+    "content": "Crystek_CVHD_950 | Page 1 | Table\nRev: Z\nDate: 26-Aug-2019\nPage 1 of 3",
+    "page": 1,
+    "type": "table"
+  },
+  {
+    "id": "Crystek_CVHD_950_p2_text0",
+    "content": "Crystek_CVHD_950 | Page 2\nCCVVHHDD--995500 VVCCXXOO\nUUllttrraa--LLooww PPhhaassee NNooiissee\nCVHD-950 Model OOsscciillllaattoorrss\n9\u00d714 mm SMD, 3.3V, CMOS\nFrequency Range: 40 MHz to 130 MHz\nTemperature Range: 0\u00b0C to +70\u00b0C (standard)\n(Option M) -20\u00b0C to +70\u00b0C\n(Option X) -40\u00b0C to +85\u00b0C\nStorage: -45\u00b0C to 90\u00b0C\nInput Voltage: 3.3V \u00b10.3V\nSupply Pushing: 1.2ppm/V Typical\nInput Current: 15mA Typical, 25mA Max\nOutput: CMOS\nSymmetry: 45/55% Max @ 50%Vdd\nRise/Fall Time: 3nsec Max @ 20% to 80% Vdd\nLogic: \u201c0\u201d = 10% Vdd Max\n\u201c1\u201d = 90% Vdd Min\nLoad: 15pF\nOutput Current: \u00b124mA Max\nInput:\nModulation Bandwidth: >10kHz @ -3dB\nInput Impedance: 51 k\u03a9\nControl Voltage: 1.65V \u00b11.65V\nTuning Sensitivity: +25ppm/V Typical\nFrequency Pulling: \u00b120ppm APR Min\n(Inclusive of frequency stability, calibration, and aging.)\nLinearity: \u00b15% Max",
+    "page": 2,
+    "type": "text"
+  },
+  {
+    "id": "Crystek_CVHD_950_p2_text1",
+    "content": "Crystek_CVHD_950 | Page 2\nTypical\nFrequency Pulling: \u00b120ppm APR Min\n(Inclusive of frequency stability, calibration, and aging.)\nLinearity: \u00b15% Max\nPhase Jitter (12kHz~20MHz): 40 fsec Typical @100MHz\nTypical Phase Noise (100MHz):\n1kHz -140 dBc/Hz\n10kHz -155 dBc/Hz\n100kHz -164 dBc/Hz\n1MHz -166 dBc/Hz\nPhase Noise Floor: -166 dBc/Hz Typical, -162 dBc/Hz Max\nSub-harmonics: None\nAging: <3ppm 1st year, <1ppm thereafter\nWeight: 1.2 g\nPart Number Example: CVHD-950X-100.000 = 3.3V, 45/55, -40\u00b0C to +85\u00b0C (\u00b120ppmAPR), 100 MHz\nAbsolute Maximum Ratings\nParameter Rating Unit\nInput Supply Voltage +6.0 V\nRev: Z\nDate: 26-Aug-2019\nInput Control Voltage +10.0 V\nPage 2 of 3\nC CRYSTEK 16850 Oriole Road \u2022 Fort Myers, Florida 33912\nPhone: 239-561-3311 \u2022 800-237-3061\nCORPORATION\nwww.crystek.com",
+    "page": 2,
+    "type": "text"
+  },
+  {
+    "id": "Crystek_CVHD_950_p2_table0",
+    "content": "Crystek_CVHD_950 | Page 2 | Table\nAbsolute Maximum Ratings |  | \nParameter | Rating | Unit\nInput Supply Voltage | +6.0 | V\nInput Control Voltage | +10.0 | V",
+    "page": 2,
+    "type": "table"
+  },
+  {
+    "id": "Crystek_CVHD_950_p2_table1",
+    "content": "Crystek_CVHD_950 | Page 2 | Table\nRev: Z\nDate: 26-Aug-2019\nPage 2 of 3",
+    "page": 2,
+    "type": "table"
+  },
+  {
+    "id": "Crystek_CVHD_950_p3_text0",
+    "content": "Crystek_CVHD_950 | Page 3\nCVHD-950 VCXO\nUltra-Low Phase Noise\nCVHD-950 Model Oscillators\n9\u00d714 mm SMD, 3.3V, CMOS\n0.560 \u00b10.005 0.560 \u00b10.005\n(14.2 \u00b10.127) (14.2 \u00b10.127)\nCRYSTEK 0.210 Side\nMax\nPart Number (5.3) View\n0.360 \u00b10.005 Top\n(9.14 \u00b10.127) Frequency View\nDate Code RECOMMENDED REFLOW SOLDERING PROFILE\n900034 (See App Note listed on website)\nSUGGESTED PAD LAYOUT\nhttp://www.crystek.com/specification/reflow/900034.pdf\n0.040 0.050\n(1.01) (1.27)\n( 0 2 . . 0 2 9 8 0 ) 4 3 Pad Connection\n1 2\nBottom 0.280 1 Volt Control\n0.070 View (7.11) 2 GND\n(1.77) 4 3 3 OUT\n1 2 4 Vdd\n0.200 0.200\n(5.08) (5.08)\nPAD FINISH: Immersion Gold (ENIG); 5 micro inches maximum\nTAPE AND REEL\n\u00d8 0.059 TYP 0.157\u00b10.004\nDenotes Pin 1 \u00d8 (1.50) TYP (4.00\u00b10.10)\n0.945 + 0 .0 1)2\n-0.004 0.575\n(24.00 + 0 .3 ) (14.60\u00b10.10)\n-0.1\n0.472\u00b10.004 0.374",
+    "page": 3,
+    "type": "text"
+  },
+  {
+    "id": "Crystek_CVHD_950_p3_text1",
+    "content": "Crystek_CVHD_950 | Page 3\nDenotes Pin 1 \u00d8 (1.50) TYP (4.00\u00b10.10)\n0.945 + 0 .0 1)2\n-0.004 0.575\n(24.00 + 0 .3 ) (14.60\u00b10.10)\n-0.1\n0.472\u00b10.004 0.374\n(12.00\u00b10.10) 0.209 (9.50\u00b10.10)\nDIRECTION OF FEED Pocket Depth =\n(5.30)\nDrawing not to scale.\nMechanical:\nShock: MIL-STD-883, Method 2002, Condition B\nSolderability: MIL-STD-883, Method 2003\nVibration: MIL-STD-883, Method 2007, Condition A\nSolvent Resistance: MIL-STD-202, Method 215\nResistance to Soldering Heat: MIL-STD-202, Method 210, Condition I or J\nRev: Z\nEnvironmental:\nCrystek Corporation reserves the right to make Date: 26-Aug-2019\nchanges to its products and/or information contained Thermal Shock: MIL-STD-883, Method 1011, Condition A\nherein without notice. No liability is assumed as a Moisture Resistance: MIL-STD-883, Method 1004 Page 3 of 3",
+    "page": 3,
+    "type": "text"
+  },
+  {
+    "id": "Crystek_CVHD_950_p3_text2",
+    "content": "Crystek_CVHD_950 | Page 3\nondition A\nherein without notice. No liability is assumed as a Moisture Resistance: MIL-STD-883, Method 1004 Page 3 of 3\nresult of its use or application.\nC CRYSTEK 16850 Oriole Road \u2022 Fort Myers, Florida 33912\nPhone: 239-561-3311 \u2022 800-237-3061\nCORPORATION\nwww.crystek.com",
+    "page": 3,
+    "type": "text"
+  },
+  {
+    "id": "Crystek_CVHD_950_p3_table0",
+    "content": "Crystek_CVHD_950 | Page 3 | Table\n |  |  | ",
+    "page": 3,
+    "type": "table"
+  },
+  {
+    "id": "Crystek_CVHD_950_p3_table1",
+    "content": "Crystek_CVHD_950 | Page 3 | Table\nPad | Connection\n1\n2\n3\n4 | Volt Control\nGND\nOUT\nVdd",
+    "page": 3,
+    "type": "table"
+  },
+  {
+    "id": "Crystek_CVHD_950_p3_table2",
+    "content": "Crystek_CVHD_950 | Page 3 | Table\n |  | \n |  | \n |  | ",
+    "page": 3,
+    "type": "table"
+  },
+  {
+    "id": "Crystek_CVHD_950_p3_table3",
+    "content": "Crystek_CVHD_950 | Page 3 | Table\n |  | \n |  | \n |  | ",
+    "page": 3,
+    "type": "table"
+  },
+  {
+    "id": "Crystek_CVHD_950_p3_table4",
+    "content": "Crystek_CVHD_950 | Page 3 | Table\n | ",
+    "page": 3,
+    "type": "table"
+  },
+  {
+    "id": "Crystek_CVHD_950_p3_table5",
+    "content": "Crystek_CVHD_950 | Page 3 | Table\n | ",
+    "page": 3,
+    "type": "table"
+  },
+  {
+    "id": "Crystek_CVHD_950_p3_table6",
+    "content": "Crystek_CVHD_950 | Page 3 | Table\nRev: Z\nDate: 26-Aug-2019\nPage 3 of 3",
+    "page": 3,
+    "type": "table"
+  }
+]

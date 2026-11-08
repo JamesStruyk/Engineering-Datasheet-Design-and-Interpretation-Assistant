@@ -15,8 +15,12 @@
 #this will return the answer to the question based on the datasheet chunks that were embedded in step 2.
 #5. get the answer with the baseline model (no RAG) by running:
 #py .\query.py "What is the operating voltage of the YDLidar GS5?" --baseline --part "YDLidar GS5"  
+#6. every question/answer pair (with time taken) is appended to rag_results.txt (RAG)
+#   or baseline_results.txt (no RAG)
 import sys
+import time
 import argparse 
+from datetime import datetime
 from sentence_transformers import SentenceTransformer
 import chromadb
 import ollama
@@ -25,6 +29,9 @@ DB_PATH = "./datasheet_embeddings"
 COLLECTION_NAME = "datasheet_chunks"
 
 MODEL = "llama3.1"
+
+RAG_LOG_FILE = "rag_results.txt"
+BASELINE_LOG_FILE = "baseline_results.txt"
 
 embedder = None
 collection = None
@@ -87,7 +94,7 @@ def answer_with_RAG(query, top_k=5):
         messages=[{"role": "user", "content": prompt}],
     )
 
-    return response["message"]["content"]
+    return response["message"]["content"], hits
 
 def answer_baseline(query, partName=""):
 
@@ -101,6 +108,19 @@ def answer_baseline(query, partName=""):
     )
     return response["message"]["content"]
 
+def log_result(filename, query, answer, extra="", elapsed=None):
+    #append mode ("a") adds to the end of the file and creates it if it doesn't exist
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    with open(filename, "a", encoding="utf-8") as f:
+        f.write(f"[{timestamp}]\n")
+        f.write(f"Question: {query}\n")
+        if extra:
+            f.write(f"{extra}\n")
+        if elapsed is not None:
+            f.write(f"Time: {elapsed:.2f} s\n")
+        f.write(f"Answer: {answer}\n")
+        f.write("-" * 60 + "\n\n")
+
 def main():
     parser = argparse.ArgumentParser(description="Answer questions based on a datasheet.")
     parser.add_argument("query", type=str, help="The question to ask.")
@@ -111,13 +131,24 @@ def main():
 
     if not args.baseline:
         print("Answering with RAG...")
-        answer = answer_with_RAG(args.query, top_k=args.top_k)
+        start = time.perf_counter()
+        answer, hits = answer_with_RAG(args.query, top_k=args.top_k)
+        elapsed = time.perf_counter() - start
+
+        #record which pages/chunk types were retrieved, useful for diagnosing retrieval vs generation failures
+        retrieved = ", ".join(f"p{h['page']}({h['type']})" for h in hits)
+        extra = f"Mode: RAG (top_k={args.top_k})\nRetrieved: {retrieved}"
+        log_result(RAG_LOG_FILE, args.query, answer, extra, elapsed)
 
     else:
         print("Answering with baseline model...")
+        start = time.perf_counter()
         answer = answer_baseline(args.query, partName=args.part)
+        elapsed = time.perf_counter() - start
+        log_result(BASELINE_LOG_FILE, args.query, answer, "Mode: Baseline (no RAG)", elapsed)
 
     print(f"Answer: {answer}")
+    print(f"Time: {elapsed:.2f} s")
 
 if __name__ == "__main__":
     main()

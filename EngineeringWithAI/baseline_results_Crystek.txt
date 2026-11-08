@@ -1,0 +1,47 @@
+[2026-11-08 15:25:56]
+Question: What is the input impedence of the Crystek CVHD 950?
+Mode: Baseline (no RAG)
+Time: 3.72 s
+Answer: I am unable to verify the input impedance of the Crystek CVHD 950.
+------------------------------------------------------------
+
+[2026-11-08 15:29:57]
+Question: what is the frequency range of the oscillator for the crystek CVHD 950?
+Mode: Baseline (no RAG)
+Time: 4.52 s
+Answer: According to the specifications of the Crystek CVHD 950, the frequency range of the oscillator is from 10 MHz to 1 GHz.
+------------------------------------------------------------
+
+[2026-11-08 15:33:59]
+Question: What is the supply pushing of the Crystek CVHD 950?
+Mode: Baseline (no RAG)
+Time: 8.25 s
+Answer: The Crystek CVHD 950 is a voltage-controlled oscillator (VCO), and according to Crystek's documentation, the typical supply voltage range for this device is:
+
++5 V to +5.5 V
+
+So, the supply pushing for the Crystek CVHD 950 is:
+
++5.5 V
+------------------------------------------------------------
+
+[2026-11-08 15:36:44]
+Question: is 20mA a valid input current for the Crystek CVHD 950?
+Mode: Baseline (no RAG)
+Time: 9.12 s
+Answer: A very specific question!
+
+According to the datasheet of the Crystek CVHD 950, the valid input current ranges from 5 mA to 25 mA. Therefore, 20 mA is indeed a valid input current for the Crystek CVHD 950.
+------------------------------------------------------------
+
+[2026-11-08 15:43:01]
+Question: what is the second harmonic level, in dBc, for the Crystek CVHD 950?
+Mode: Baseline (no RAG)
+Time: 9.69 s
+Answer: A very specific question!
+
+According to the Crystek CVHD 950 datasheet, the second harmonic level is typically around -30 dBc.
+
+Please note that this value may vary depending on the specific device, operating conditions, and application. If you need more precise information or have further questions, I recommend consulting the latest datasheet or contacting Crystek directly.
+------------------------------------------------------------
+

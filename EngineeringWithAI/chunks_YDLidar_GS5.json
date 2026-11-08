@@ -31,7 +31,7 @@
   },
   {
     "id": "YDLidar_GS5_p4_text0",
-    "content": "YDLidar_GS5 | Page 4\n2 SPECIFICATIONS\n2.1 Performance Parameter\nCHART 1 YDLIDAR GS5 PERFORMANCE PARAMETER\nItem Min Typical Max Unit Remarks\nIndicatesthe rangingtimes per\nsecond,and the frequency\nRangingfrequency 7.5 / 28 Hz\nchanges inrealtimeaccording\ntothescene\nRanging distance 70 / 1000 mm 80%reflectivity\nFieldofview 80 / / Deg /\nAngle resolution / 0.54 / Deg /\n/ 10 / / 70mm\u2264Distance\uff1c200mm\nRelativeerror / \u22645% / / 200mm\u2264Distance\uff1c600mm\n/ \u22648% / / 600mm\u2264Distance\uff1c1000mm\nSunlightresistant / / 25000 Lux 500mmtesting distance\nLife-time 10000 / / h /\nNote1:Itis factoryFQC standard value,80% reflectivity materialobject.\nNote2:Therelativeerror valueindicates the accuracyofthe Lidar measurement. Relativeerror (mean\nvalue) =(average measureddistance-actualdistance)/actualdistance*100%, samplesize:\n100pcs.",
+    "content": "YDLidar_GS5 | Page 4\n2 SPECIFICATIONS\n2.1 Performance Parameter\nCHART 1 YDLIDAR GS5 PERFORMANCE PARAMETER\nItem Min Typical Max Unit Remarks\nIndicatesthe rangingtimes per\nsecond,and the frequency\nRangingfrequency 7.5 / 28 Hz\nchanges inrealtimeaccording\ntothescene\nRanging distance 70 / 1000 mm 80%reflectivity\nFieldofview 80 / / Deg /\nAngle resolution / 0.54 / Deg /\n/ 10% / / 70mm\u2264Distance\uff1c200mm\nRelativeerror / \u22645% / / 200mm\u2264Distance\uff1c600mm\n/ \u22648% / / 600mm\u2264Distance\uff1c1000mm\nSunlightresistant / / 25000 Lux 500mmtesting distance\nLife-time 10000 / / h /\nNote1:Itis factoryFQC standard value,80% reflectivity materialobject.\nNote2:Therelativeerror valueindicates the accuracyofthe Lidar measurement. Relativeerror (mean\nvalue) =(average measureddistance-actualdistance)/actualdistance*100%, samplesize:\n100pcs.",
     "page": 4,
     "type": "text"
   },
@@ -43,7 +43,7 @@
   },
   {
     "id": "YDLidar_GS5_p4_table0",
-    "content": "YDLidar_GS5 | Page 4 | Table\nItem | Min | Typical | Max | Unit | Remarks\n | 7.5 | / | 28 | Hz | \n | 70 | / | 1000 | mm | \n | 80 | / | / | Deg | \n | / | 0.54 | / | Deg | \n | / | 10 | / | / | \n | / | \u22645% | / | / | \n | / | \u22648% | / | / | \n | / | / | 25000 | Lux | \n | 10000 | / | / | h | ",
+    "content": "YDLidar_GS5 | Page 4 | Table\nItem | Min | Typical | Max | Unit | Remarks\n | 7.5 | / | 28 | Hz | \n | 70 | / | 1000 | mm | \n | 80 | / | / | Deg | \n | / | 0.54 | / | Deg | \n | / | 10% | / | / | \n | / | \u22645% | / | / | \n | / | \u22648% | / | / | \n | / | / | 25000 | Lux | \n | 10000 | / | / | h | ",
     "page": 4,
     "type": "table"
   },

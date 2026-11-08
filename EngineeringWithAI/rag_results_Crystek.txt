@@ -1,0 +1,58 @@
+[2026-11-08 15:24:23]
+Question: What is the input impedence of the Crystek CVHD 950?
+Mode: RAG (top_k=5)
+Retrieved: p2(table), p2(text), p2(text), p3(text), p1(text)
+Time: 112.91 s
+Answer: According to the datasheet, the input impedance of the Crystek CVHD 950 is 51 kΩ.
+
+[Page 2] Crystek_CVHD_950 | Page 2
+Input:
+Modulation Bandwidth: >10kHz @ -3dB
+Input Impedance: 51 kΩ
+Control Voltage: 1.65V ±1.65V
+Tuning Sensitivity: +25ppm/V Typical
+Frequency Pulling: ±20ppm APR Min
+(Inclusive of frequency stability, calibration, and aging.)
+Linearity: ±5% Max
+------------------------------------------------------------
+
+[2026-11-08 15:28:50]
+Question: what is the frequency range of the oscillator for the crystek CVHD 950?
+Mode: RAG (top_k=5)
+Retrieved: p2(text), p1(text), p1(text), p2(text), p3(text)
+Time: 97.32 s
+Answer: According to the datasheet, the frequency range of the oscillator for the Crystek CVHD-950 is:
+
+40 MHz to 130 MHz
+
+Page 2 of the datasheet states: "Frequency Range: 40 MHz to 130 MHz"
+------------------------------------------------------------
+
+[2026-11-08 15:32:25]
+Question: What is the supply pushing of the Crystek CVHD 950?
+Mode: RAG (top_k=5)
+Retrieved: p2(text), p3(text), p2(text), p2(table), p3(text)
+Time: 94.82 s
+Answer: According to the datasheet, the supply pushing of the Crystek CVHD 950 is 1.2ppm/V Typical. (Page 2)
+------------------------------------------------------------
+
+[2026-11-08 15:35:59]
+Question: is 20mA a valid input current for the Crystek CVHD 950?
+Mode: RAG (top_k=5)
+Retrieved: p2(text), p2(table), p2(text), p3(text), p3(text)
+Time: 71.24 s
+Answer: According to the datasheet, the maximum input current for the Crystek CVHD-950 is 25mA, but there is no mention of 20mA as a valid input current.
+
+I am unable to answer the question as there is no evidence to suggest that 20mA is a valid input current for the Crystek CVHD-950.
+------------------------------------------------------------
+
+[2026-11-08 15:41:35]
+Question: what is the second harmonic level, in dBc, for the Crystek CVHD 950?
+Mode: RAG (top_k=5)
+Retrieved: p2(text), p2(table), p1(text), p2(table), p2(text)
+Time: 40.69 s
+Answer: I am unable to answer the question.
+
+The datasheet does not mention the second harmonic level of the Crystek CVHD 950. However, it does mention that there are no sub-harmonics (sub-harmonics: None).
+------------------------------------------------------------
+
